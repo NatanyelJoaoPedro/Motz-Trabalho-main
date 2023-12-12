@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #2C7CF4;
+    padding: 20px;
+}
+.logo-motz {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.user {
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+}

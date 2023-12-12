@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/Captura\ de\ Tela\ \(15\).png);
+  background-size: cover;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap; /* Added to allow items to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  background: #2c7cf4;
+  padding: 20px;
+}
+
+.Logo-motz {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 5%; /* Adjusted margin-right for better responsiveness */
+}
+
+.user {
+  margin-right: 10%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+}
+
+.text h1 {
+  color: #f0f6ff;
+  margin-top: 150px;
+  text-align: right;
+}
+
+.text h2 {
+  color: #fff;
+  text-align: right;
+}
+
+button {
+  display: flex;
+  bottom: 23px;
+  right: 50px;
+  position: absolute;
+  width: 100%; /* Adjusted width for better responsiveness */
+  max-width: 250px; /* Added max-width for smaller screens */
+  height: 100px;
+  margin: 20px auto; /* Adjusted margin for better centering */
+  background-color: #2c7cf4;
+  border-radius: 12px;
+}
+
+.button-v {
+  display: flex;
+  bottom: 23px;
+  left: -1600px;
+  position: absolute;
+  justify-content: center;
+  width: 250px; /* Adjusted width for better responsiveness */
+  max-width: 250px; /* Added max-width for smaller screens */
+  height: 100px;
+  margin: 20px auto; /* Adjusted margin for better centering */
+  background-color: #2c7cf4;
+  border-radius: 12px;
+  
+}
+
+button p {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu2 {
+  display: flex;
+  flex-wrap: wrap; /* Added to allow items to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  background: #000000;
+  height: 300px;
+  padding: 10px;
+  margin-top: 250px;
+}
+
+.logo-motz2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.text-rede {
+    color: #f0f6ff;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    width: 1400px;
+    
+}
+
+.text-rede2 {
+    color: #f0f6ff;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    left: 800;
+    
+    
+}
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .Logo-motz {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .user {
+    margin-right: 5%;
+  }
+
+  button {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+  }
+}

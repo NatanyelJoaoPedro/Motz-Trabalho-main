@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Section\ \(1\).png);
+    background-size: cover;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+}
+
+.text h1 {
+    color: #2C7CF4;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+.text h2 {
+    margin-top: auto;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.button {
+    display: flex;
+    width: 248px;
+    padding: 15px 1px 14px 1px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 250px;
+    border-radius: 12px;
+    background: #2C7CF4;
+    box-shadow: 0px 4px 4px 0px rgba(185, 163, 163, 0.25);
+    animation: alternate;
+}
+
+.button:hover{
+    transition: .5s;
+    background: #2563c0;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+}
+
+.button p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.button img.seta {
+    width: 20px;
+    height: auto;
+    margin-left: 8px;
+}
+
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .logo-motz {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .user {
+        margin-right: 5%;
+    }
+}

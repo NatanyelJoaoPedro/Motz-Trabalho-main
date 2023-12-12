@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text h2{
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #2C7CF4;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.grupo{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.sessao{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-sessao{
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #2C7CF4;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.text02-sessao{
+    font-family: 'Inter', sans-serif;
+    font-style: initial;
+    width: 155px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 37px;
+}
